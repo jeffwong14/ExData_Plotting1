@@ -7,7 +7,7 @@ plot1 <- function() {
                      skip = 66637, nrows = 2880, sep = ";", col.names = colnames)
     
     #Plot the histogram
-    png(filename = "plot1.png", width = 480, height= 480)
+    png(filename = "plot1.png", width = 480, height= 480, bg = NA)
     with(data, hist(Global_active_power, main = "Global Active Power", 
                     col = "red", xlab = "Global Active Power (kilowatts)"))
     dev.off()

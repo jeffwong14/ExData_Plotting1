@@ -10,7 +10,7 @@ plot2 <- function() {
         paste(data[, "Date"] , data[, "Time"], sep = " "), format = "%d/%m/%Y %H:%M:%S"))
     
     #Plot the line datetime vs global active power
-    png(filename = "plot2.png", width = 480, height = 480)
+    png(filename = "plot2.png", width = 480, height = 480, bg = NA)
     with(data, plot(DateTime, Global_active_power, 
                     type = "l", ylab = "Global Active Power (kilowatts)", xlab = ""))
     dev.off()

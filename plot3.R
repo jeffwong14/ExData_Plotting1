@@ -10,7 +10,7 @@ plot3 <- function() {
         paste(data[, "Date"] , data[, "Time"], sep = " "), format = "%d/%m/%Y %H:%M:%S"))
     
     #Plot the line datetime vs Energy sub metering
-    png(filename = "plot3.png", width = 480, height = 480)
+    png(filename = "plot3.png", width = 480, height = 480, bg = NA)
     with(data, plot(DateTime, Sub_metering_1, 
                     type = "n", ylab = "Energe sub metering", xlab = ""))
     with(data, points(DateTime, Sub_metering_1, type = "l"))

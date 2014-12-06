@@ -8,6 +8,16 @@
 
 `plot4.R` is the program code for plotting the 4th Graph
 
+### How the script works
+
+The function works in follow steps
+
+1. Reads the column header from the first row
+2. Reads the 2007-02-01 to 2007-02-02 data
+3. (Except Graph 1) Convert the Date & Time column and formulate a new DateTime column
+4. Plots the graph with proper format & legend
+5. (For Graph 4) First instruct the plot to create a 2x2 plot, then sub-plot one by one
+
 The PNG files are the output of the plot.
 - - -
 

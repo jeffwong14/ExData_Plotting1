@@ -10,7 +10,7 @@ plot4 <- function() {
         paste(data[, "Date"] , data[, "Time"], sep = " "), format = "%d/%m/%Y %H:%M:%S"))
     
     #Prepare to show 4 graphs
-    png(filename = "plot4.png", width = 480, height = 480)
+    png(filename = "plot4.png", width = 480, height = 480, bg = NA)
     par(mfrow = c(2,2))
     
     #Graph 1 - datetime vs global active power
