@@ -1,3 +1,41 @@
+## Description
+
+`plot1.R` is the program code for plotting the 1st Graph
+
+`plot2.R` is the program code for plotting the 2nd Graph
+
+`plot3.R` is the program code for plotting the 3rd Graph
+
+`plot4.R` is the program code for plotting the 4th Graph
+
+The PNG files are the output of the plot.
+- - -
+
+### Plot 1 Result
+
+
+![plot 1](plot1.png) 
+
+
+### Plot 2 Result
+
+![plot 2](plot2.png) 
+
+
+### Plot 3 Result
+
+![plot 3](plot3.png) 
+
+
+### Plot 4 Result
+
+![plot 4](plot4.png) 
+
+
+
+- - -
+Below are the assignment description fork from [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
+
 ## Introduction
 
 This assignment uses data from
